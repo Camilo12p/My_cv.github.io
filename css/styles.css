@@ -7,7 +7,7 @@ body {
 
 .container_general {
   width: 90%;
-  height: 160vh;
+  height: 100vh;
   margin: 0 auto;
   padding: 0;
   display: flex;
@@ -33,11 +33,17 @@ body {
 }
 
 .container_circle {
-  width: 20vw;
-  height: 43vh;
+  width: 19vw;
+  height: 39vh;
   background-color: green;
   margin: auto;
   border-radius: 50%;
+}
+
+.container_circle:hover {
+  width: 22vw;
+  height: 41vh;
+  transition: all 0.2s ease;
 }
 
 .container-info {
@@ -141,7 +147,7 @@ body {
   width: 80%;
   border-radius: 2em;
   padding: 1em 2em;
-  font-size: x-small;
+  font-size: small;
   margin: 2em auto;
   display: flex;
   flex-direction: column;
@@ -163,15 +169,16 @@ body {
 }
 
 .title_proyect {
-  font-size: small;
+  font-size: medium;
   padding-bottom: 0.5em;
   border-bottom: 1px solid black;
 }
 
 .description_word_proyect,
 .fecha_word_proyect,
-.stack_tecnolgy_word {
-  font-size: small;
+.stack_tecnolgy_word,
+.staks_list{
+  font-size: medium;
   font-weight: bold;
 }
 
