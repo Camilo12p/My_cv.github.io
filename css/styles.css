@@ -34,16 +34,25 @@ body {
 
 .container_circle {
   width: 19vw;
-  height: 39vh;
+  height: 40vh;
   background-color: green;
   margin: auto;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container_circle:hover {
   width: 22vw;
-  height: 41vh;
+  height: 42vh;
   transition: all 0.2s ease;
+}
+
+.img_perfil {
+  width: 99%;
+  height: 99%;
+  border-radius: 50%;
 }
 
 .container-info {
