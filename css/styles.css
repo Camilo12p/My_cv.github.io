@@ -46,12 +46,14 @@ body {
 .container_circle:hover {
   width: 22vw;
   height: 42vh;
+
   transition: all 0.2s ease;
 }
 
 .img_perfil {
   width: 99%;
   height: 99%;
+  overflow: hidden;
   border-radius: 50%;
 }
 
