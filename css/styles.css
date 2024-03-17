@@ -44,10 +44,8 @@ body {
 }
 
 .container_circle:hover {
-  width: 22vw;
-  height: 42vh;
-
-  transition: all 0.2s ease;
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
 }
 
 .img_perfil {
@@ -288,7 +286,7 @@ img {
   width: 3em;
 }
 
-img:hover {
+.img_logo_skill:hover {
   transform: scale(1.2);
   transition: all 0.2s ease;
 }
